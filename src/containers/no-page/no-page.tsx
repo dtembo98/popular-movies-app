@@ -7,7 +7,7 @@ export const NoPage = () => {
       <StyledErrorTitle>Page Not Found</StyledErrorTitle>
       <StyledErrorDescription>This page does not exist</StyledErrorDescription>
       <StyledErrorCode>
-        Try to reload to check the link you've entered
+        Try to check the url you've entered is correct
       </StyledErrorCode>
     </StyledNotFoundContainer>
   )
@@ -19,6 +19,7 @@ const StyledNotFoundContainer = styled(Box)`
   align-items: center;
   justify-content: center;
   height: 100vh;
+  color: "#000";
 `
 const StyledErrorTitle = styled.h1`
   font-size: 20px;

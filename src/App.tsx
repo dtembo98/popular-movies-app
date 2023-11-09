@@ -22,7 +22,7 @@ function App() {
                 <Route path='/' element={<Home />} />
                 <Route path='/liked' element={<Home />} />
                 <Route path='/no-connection' element={<NoInternet />} />
-                <Route element={<NoPage />} />
+                <Route path='*' element={<NoPage />} />
               </Routes>
             </BrowserRouter>
           </ThemeProvider>
